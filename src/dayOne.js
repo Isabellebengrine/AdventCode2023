@@ -3,10 +3,10 @@
 const fs = require("fs");
 
 const data = lireFichierTexte('dayOne', 'inputPartOne.example.text');
-console.log(dayOnePartOne(data))
+console.log('day 1 (test) : ', dayOnePartOne(data))
 //
 const vraiData = lireFichierTexte('dayOne', 'input.text');
-console.log(dayOnePartOne(vraiData))
+console.log('day 1 (vrai) :', dayOnePartOne(vraiData))
 
 const mapping = {
     'one': 1,
