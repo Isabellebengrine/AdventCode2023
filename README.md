@@ -1,5 +1,8 @@
 TDD PRACTICE USING NODE JS AND ADVENT OF CODE 2023
 
+Installer dépendances :
+npm install
+
 Pour lancer les tests :
 npm test
 
