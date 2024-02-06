@@ -2,13 +2,12 @@ const fs = require("fs");
 
 const {lireFichierTexte} = require('../src/dayOne');
 
-const data = lireFichierTexte('dayThree', 'inputPartOne.example.text');
-console.log('day 3 sample : ', dayThreePartOne(data))
+// const data = lireFichierTexte('dayThree', 'inputPartOne.example.text');
+// console.log('day 3 sample : ', dayThreePartOne(data))
 //
-const vraiData = lireFichierTexte('dayThree', 'input.text');
-console.log('day 3 solution : ', dayThreePartTwo(vraiData))
+// const vraiData = lireFichierTexte('dayThree', 'input.text');
+// console.log('day 3 solution : ', dayThreePartTwo(vraiData))
 
-console.log('test : ', getRowsArray('dayThree', 'inputPartOne.example.text'))
 //day 3 part 2
 
 function getAdjacentToExactlyTwoNumbers(results) {
